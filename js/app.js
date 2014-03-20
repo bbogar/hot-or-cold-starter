@@ -95,6 +95,7 @@ $(document).ready(function(){
 		$("#count").text("0");
 		$("form")[0].reset();
 		$("#feedback").text("Make a Guess!");
+		document.getElementById("feedback").style.backgroundColor ="#cc324b"
 		resetNum();
 		randomNum();
 		answer = Math.floor((Math.random()*100)+1);
